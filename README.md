@@ -10,7 +10,7 @@
 
 This is the source code for my personal portfolio website showcasing my work as a **Data Analytics Engineer**.
 
-### 🚀 **[View Live Portfolio →](https://anaghavs09.github.io/portfolio/)**
+### 🚀 **[View Live Portfolio →](https://anaghavs09.github.io/Portfolio/)**
 
 ---
 
