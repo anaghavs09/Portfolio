@@ -1,6 +1,6 @@
 # 🌐 Anagha Veena Sanjeev - Portfolio
 
-[![Portfolio Live](https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge)](https://anaghavs09.github.io/portfolio/)
+[![Portfolio Live](https://img.shields.io/badge/Portfolio-Live-success?style=for-the-badge)](https://anaghavs09.github.io/Portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/anaghavs09)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anagha-v-s)
 
