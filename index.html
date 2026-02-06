@@ -1,641 +1,598 @@
-'<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anagha Veena Sanjeev - Masters in Data Analytics Engineering</title>
+    <title>Anagha Veena Sanjeev - Data Analytics Engineer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <h1 class="logo">Anagha V S</h1>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    
+    <!-- Side Navigation -->
+    <nav class="side-nav">
+        <div class="nav-brand">AVS</div>
+        <div class="nav-items">
+            <a href="#intro" class="nav-item" data-section="intro">
+                <span class="nav-text">Intro</span>
+            </a>
+            <a href="#work" class="nav-item" data-section="work">
+                <span class="nav-text">Work</span>
+            </a>
+            <a href="#education" class="nav-item" data-section="education">
+                <span class="nav-text">Education</span>
+            </a>
+            <a href="#projects" class="nav-item" data-section="projects">
+                <span class="nav-text">Projects</span>
+            </a>
+            <a href="#skills" class="nav-item" data-section="skills">
+                <span class="nav-text">Skills</span>
+            </a>
+            <a href="#contact" class="nav-item" data-section="contact">
+                <span class="nav-text">Contact</span>
+            </a>
+        </div>
+        <div class="nav-social">
+            <a href="https://github.com/anaghavs09" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/anagha-v-s" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Data Analytics Engineer</h1>
-            <p class="hero-subtitle">Turning Complex Data into Clear Insights</p>
-            <p class="hero-description">
-                MS in Data Analytics Engineering @ Northeastern University<br>
-                Building Scalable Data Solutions Across Industries
-            </p>
-            <div class="hero-stats">
-                <div class="stat">
-                    <h3>50M+</h3>
-                    <p>Records Processed</p>
-                </div>
-                <div class="stat">
-                    <h3>60%</h3>
-                    <p>Process Efficiency Gain</p>
-                </div>
-                <div class="stat">
-                    <h3>1                                                                                                                                                             + Years</h3>
-                    <p>Data Experience</p>
-                </div>
-            </div>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-secondary">Let's Connect</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p class="intro">
-                        👋 Hi! I'm <strong>Anagha</strong>, a Data Analytics Engineer who transforms raw data into actionable business insights.
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <!-- Intro Section -->
+        <section id="intro" class="section intro-section">
+            <div class="section-inner">
+                <div class="intro-content">
+                    <div class="intro-label">Hello, I'm</div>
+                    <h1 class="intro-name">Anagha Veena Sanjeev</h1>
+                    <p class="intro-bio">
+                        I work with data, building pipelines, creating analytics solutions, and applying 
+                        machine learning to solve problems. Recently completed my MS in Data Analytics 
+                        Engineering at Northeastern University and worked as a BI Engineer at Cohere Health.
                     </p>
-                    <p>
-                        Currently completing my <strong>Master's in Data Analytics Engineering</strong> at Northeastern University (Dec 2025), 
-                        I bring hands-on experience from <strong>Cohere Health</strong>, where I built data transformation pipelines 
-                        processing <strong>50+ million records</strong>, and <strong>Exposys Data Labs</strong>, where I delivered 
-                        analytics solutions across multiple industries.
+                    <p class="intro-interests">
+                        <strong>Interested in roles:</strong> Data Engineer, Data Scientist, AI Engineer
                     </p>
-                    <p>
-                        My expertise spans the full data lifecycle—from designing ETL workflows and optimizing SQL queries, 
-                        to building data models and creating analytics solutions that drive real business outcomes.
-                    </p>
-                    <div class="highlights">
-                        <h3>💡 What I Bring to the Table:</h3>
-                        <ul>
-                            <li>🏗️ Design and build scalable data pipelines that process millions of records</li>
-                            <li>📊 Transform business questions into data solutions and visualizations</li>
-                            <li>⚡ Optimize data workflows for performance, quality, and reliability</li>
-                            <li>🔍 Conduct deep-dive analysis to uncover patterns and opportunities</li>
-                            <li>🎯 Deliver insights that teams actually use to make better decisions</li>
-                        </ul>
+                    <div class="intro-actions">
+                        <a href="Anagha_Sanjeev.pdf" class="btn-outline" target="_blank">
+                            View Resume
+                        </a>
+                        <a href="#contact" class="btn-solid">
+                            Get in Touch
+                        </a>
                     </div>
-                    <div class="philosophy-box">
-                        <p><em>"Great data work makes complex things simple—not simple things complex."</em></p>
-                    </div>
-                    <div class="status-box">
-                        <p><strong>🚀 Status:</strong> Actively seeking full-time opportunities starting December 2025</p>
-                        <p><strong>📍 Location:</strong> Boston, MA | Open to relocation across the US</p>
-                        <p><strong>🎯 Interests:</strong> Data Engineering | Analytics Engineering | Business Intelligence | Data Science</p>
+                    <div class="intro-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Boston, MA • Open to relocation
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">Jan 2025 - Jun 2025</div>
-                    <div class="timeline-content">
-                        <h3>Business Intelligence Engineer Co-op</h3>
-                        <h4>Cohere Health | Boston, MA</h4>
-                        <div class="metrics">
-                            <span class="metric-badge">50M+ records</span>
-                            <span class="metric-badge">40% faster queries</span>
-                            <span class="metric-badge">50+ dbt tests</span>
-                            <span class="metric-badge">15+ clients</span>
-                        </div>
-                        <ul class="achievements">
-                            <li>Engineered <strong>dbt data models</strong> with 50+ automated tests ensuring 98% data quality and reliability</li>
-                            <li>Built <strong>self-service analytics solutions</strong> and compliance reports reducing manual work by 40%</li>
-                            <li>Automated daily <strong>data extraction workflows</strong> using PySpark and Airflow, delivering reliable data to 15+ clients</li>
-                            <li>Optimized SQL queries in <strong>AWS Athena</strong> processing 50M+ records, improving performance and reducing costs</li>
-                            <li>Created comprehensive <strong>data documentation</strong> and quality frameworks supporting governance initiatives</li>
-                            <li>Authored <strong>product requirements</strong> for self-service query builder enhancing data accessibility</li>
-                            <li>Collaborated with product, data, design, and engineering teams in fast-paced agile environment</li>
-                        </ul>
-                        <div class="tech-used">
-                            <strong>Tech Stack:</strong> dbt, AWS (Athena, Glue, S3, Redshift), Tableau, PySpark, Airflow, SQL, Python, Git
+        <!-- Work Experience Section -->
+        <section id="work" class="section work-section">
+            <div class="section-inner">
+                <h2 class="section-heading">Work Experience</h2>
+                
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="exp-marker"></div>
+                        <div class="exp-content">
+                            <div class="exp-header">
+                                <div>
+                                    <h3 class="exp-title">Business Intelligence Engineer</h3>
+                                    <div class="exp-company">Cohere Health</div>
+                                </div>
+                                <div class="exp-period">Jan 2025 - Jun 2025</div>
+                            </div>
+                            <ul class="exp-list">
+                                <li>Created and improved 6 client-facing dashboards and compliance reports in Tableau, helping teams easily track utilization and program performance each month</li>
+                                <li>Executed and optimized SQL queries in AWS Athena to clean and validate large healthcare datasets, reducing reporting errors by 15%</li>
+                                <li>Built and maintained dbt models with version control to provide scalable reporting for cost, utilization, and operational performance tracking</li>
+                                <li>Conducted data testing and quality assurance to ensure compliance with healthcare standards, correcting over 90% of data inconsistencies</li>
+                                <li>Documented metrics and metadata for a self-service query builder, reducing average query turnaround time by 50%</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span>Tableau</span>
+                                <span>SQL</span>
+                                <span>AWS Athena</span>
+                                <span>dbt</span>
+                                <span>Python</span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-date">Jun 2022 - Jun 2023</div>
-                    <div class="timeline-content">
-                        <h3>Data Scientist</h3>
-                        <h4>Exposys Data Labs | Bengaluru, India</h4>
-                        <div class="metrics">
-                            <span class="metric-badge">5+ projects</span>
-                            <span class="metric-badge">15+ reports</span>
-                            <span class="metric-badge">60% time savings</span>
-                            <span class="metric-badge">10M+ records</span>
-                        </div>
-                        <ul class="achievements">
-                            <li>Delivered <strong>5+ end-to-end analytics projects</strong> for clients across e-commerce, finance, and logistics sectors</li>
-                            <li>Built <strong>automated data pipelines</strong> using Python (Pandas, NumPy) processing 10M+ records daily, reducing manual processing by 60%</li>
-                            <li>Developed <strong>15+ interactive Power BI reports</strong> providing KPI tracking and business intelligence for client stakeholders</li>
-                            <li>Created <strong>predictive analytics models</strong> for customer segmentation, demand forecasting, and trend analysis using statistical methods</li>
-                            <li>Applied <strong>text analytics and NLP</strong> to process 50K+ customer reviews, identifying key themes and sentiment patterns</li>
-                            <li>Designed <strong>data quality checks</strong> and validation workflows improving data accuracy by 70%</li>
-                            <li>Conducted <strong>exploratory data analysis</strong> and presented insights to business teams guiding strategic decisions</li>
-                            <li>Collaborated with cross-functional teams to translate business requirements into analytical solutions</li>
-                        </ul>
-                        <div class="tech-used">
-                            <strong>Tech Stack:</strong> Python (Pandas, NumPy, Scikit-learn), Power BI, SQL, NLP (spaCy, NLTK), Excel, Git
+                    <div class="experience-item">
+                        <div class="exp-marker"></div>
+                        <div class="exp-content">
+                            <div class="exp-header">
+                                <div>
+                                    <h3 class="exp-title">Data Analyst</h3>
+                                    <div class="exp-company">Exposys Data Labs</div>
+                                </div>
+                                <div class="exp-period">Jun 2022 - Jun 2023</div>
+                            </div>
+                            <ul class="exp-list">
+                                <li>Analyzed end-to-end supply chain data using Python and SQL to evaluate supplier performance, lead time variability, and delivery reliability</li>
+                                <li>Built and maintained supplier performance metrics including lead time variability and OTIF, reducing late deliveries by 20%</li>
+                                <li>Developed SKU-level demand forecasting models in Python using historical sales data, improving inventory planning accuracy by 15%</li>
+                                <li>Evaluated forecasting model accuracy using MAPE and RMSE metrics, reducing forecast errors by 10%</li>
+                                <li>Created interactive dashboards and reports using Tableau to communicate trends, risks, and performance insights</li>
+                            </ul>
+                            <div class="exp-tags">
+                                <span>Python</span>
+                                <span>SQL</span>
+                                <span>Tableau</span>
+                                <span>Supply Chain Analytics</span>
+                                <span>Forecasting</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card featured">
-                    <div class="project-header">
-                        <i class="fas fa-robot project-icon"></i>
-                        <h3>RebalanceAI</h3>
-                        <span class="featured-badge">Featured</span>
-                    </div>
-                    <p class="project-tagline">AI-Powered Investment Intelligence</p>
-                    <p class="project-description">
-                        Intelligent portfolio analyzer using LangChain that combines quantitative analysis with 
-                        real-time sentiment from financial news, delivering investment insights efficiently.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">LangChain</span>
-                        <span class="badge">OpenAI GPT</span>
-                        <span class="badge">yFinance</span>
-                        <span class="badge">NewsAPI</span>
-                        <span class="badge">Pandas</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Features:</strong> Portfolio risk analysis | Real-time sentiment tracking | Investment recommendations
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/RebalanceAI-Langchain-hackathon" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
+        <!-- Education Section -->
+        <section id="education" class="section education-section">
+            <div class="section-inner">
+                <h2 class="section-heading">Education</h2>
+                
+                <div class="education-content">
+                    <div class="education-main">
+                        <div class="edu-degree">
+                            <h3>Master of Science in Data Analytics Engineering</h3>
+                            <div class="edu-school">Northeastern University</div>
+                            <div class="edu-details">
+                                <span class="edu-location">Boston, MA</span>
+                                <span class="edu-separator">•</span>
+                                <span class="edu-year">Dec 2025</span>
+                                <span class="edu-separator">•</span>
+                                <span class="edu-gpa">GPA: 3.8/4.0</span>
+                            </div>
+                        </div>
 
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-users project-icon"></i>
-                        <h3>Customer Segmentation RFM</h3>
+                        <div class="edu-courses">
+                            <h4>Relevant Coursework</h4>
+                            <div class="courses-grid">
+                                <div class="course-item">
+                                    <div class="course-name">Applied Generative AI</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Applied Natural Language Processing</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Data Mining Engineering</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Statistical Learning</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Computation and Visualization</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <p class="project-tagline">Data-Driven Marketing Intelligence</p>
-                    <p class="project-description">
-                        Customer segmentation using RFM analysis and clustering techniques to enable targeted marketing 
-                        strategies, revealing that top 2 segments drive 60% of revenue.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">K-Means</span>
-                        <span class="badge">Pandas</span>
-                        <span class="badge">Matplotlib</span>
-                        <span class="badge">Seaborn</span>
-                        <span class="badge">RFM Analysis</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Business Value:</strong> 5 distinct segments | Top 2 = 60% revenue | Actionable marketing insights
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/Customer-Segmentation-using-RFM-Analysis" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
 
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-chart-line project-icon"></i>
-                        <h3>Crime Analytics & Forecasting</h3>
-                    </div>
-                    <p class="project-tagline">Predictive Public Safety</p>
-                    <p class="project-description">
-                        Time series analysis and forecasting system for crime prediction using statistical models, 
-                        enabling law enforcement to optimize resource allocation proactively.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">ARIMA</span>
-                        <span class="badge">Prophet</span>
-                        <span class="badge">Time Series</span>
-                        <span class="badge">Data Visualization</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Value:</strong> Predictive resource planning | Hotspot identification | Temporal pattern analysis
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/Crime-data-analysis-and-forecasting" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-ticket-alt project-icon"></i>
-                        <h3>Amusement Park Analytics</h3>
-                    </div>
-                    <p class="project-tagline">Operations Intelligence</p>
-                    <p class="project-description">
-                        End-to-end analytics platform analyzing customer behavior patterns, expense management, 
-                        and supply chain operations to maximize revenue and operational efficiency.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">SQL</span>
-                        <span class="badge">Tableau</span>
-                        <span class="badge">Time Series</span>
-                        <span class="badge">Statistical Analysis</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Insights:</strong> Customer flow optimization | Revenue forecasting | Supply chain efficiency
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/Analyzing-Customer-Behavior-Expenses-and-Supply-Management-in-Amusement-Parks" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-shield-alt project-icon"></i>
-                        <h3>Fraud Detection System</h3>
-                    </div>
-                    <p class="project-tagline">Intelligent Transaction Monitoring</p>
-                    <p class="project-description">
-                        Analytics system for detecting fraudulent financial transactions using statistical methods 
-                        and pattern recognition to identify anomalies in transaction data.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">Scikit-learn</span>
-                        <span class="badge">Pandas</span>
-                        <span class="badge">Statistical Analysis</span>
-                        <span class="badge">Data Visualization</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Application:</strong> Financial security | Pattern detection | Anomaly identification
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/Real-time-Fraud-Detection" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-heartbeat project-icon"></i>
-                        <h3>Diabetes Readmission Analysis</h3>
-                    </div>
-                    <p class="project-tagline">Healthcare Analytics</p>
-                    <p class="project-description">
-                        Predictive analytics project analyzing patient readmission patterns using clinical data 
-                        and statistical modeling to support healthcare decision-making.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">Pandas</span>
-                        <span class="badge">Feature Engineering</span>
-                        <span class="badge">Statistical Modeling</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Domain:</strong> Healthcare analytics | Clinical data analysis | Risk assessment
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/Diabetes-Readmission-Classification" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 7 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-plane project-icon"></i>
-                        <h3>Aviation Communication Analysis</h3>
-                    </div>
-                    <p class="project-tagline">NLP for Text Simplification</p>
-                    <p class="project-description">
-                        Natural language processing system analyzing and simplifying complex aviation communications 
-                        using text analytics and language models.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">NLP</span>
-                        <span class="badge">Text Processing</span>
-                        <span class="badge">Data Analysis</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Application:</strong> Text simplification | Domain-specific NLP | Communication clarity
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/From-Black-Box-to-Clarity-NLP-for-Simplifying-Aviation-Conversations" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 8 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-user-check project-icon"></i>
-                        <h3>Recruitment Analytics System</h3>
-                    </div>
-                    <p class="project-tagline">Smart Candidate Matching</p>
-                    <p class="project-description">
-                        NLP-based system for analyzing resumes and job descriptions to match candidates with positions, 
-                        streamlining the recruitment screening process.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">NLP</span>
-                        <span class="badge">Text Analytics</span>
-                        <span class="badge">spaCy</span>
-                        <span class="badge">Data Processing</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Efficiency:</strong> Automated screening | Semantic matching | Time reduction in hiring process
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/Automated-Candidate-Selection-System-for-Recruitment-using-NLP" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Project 9 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-car project-icon"></i>
-                        <h3>Driver Drowsiness Monitoring System</h3>
-                    </div>
-                    <p class="project-tagline">Computer Vision Analytics</p>
-                    <p class="project-description">
-                        Computer vision application for monitoring driver alertness using image processing 
-                        and pattern recognition techniques.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">OpenCV</span>
-                        <span class="badge">Image Processing</span>
-                        <span class="badge">Pattern Recognition</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Application:</strong> Real-time monitoring | Safety analytics | Alert systems
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/Driver-Drowsiness-Detection" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-                <!-- Project 10 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-shopping-cart project-icon"></i>
-                        <h3>E-Commerce Data Pipeline</h3>
-                    </div>
-                    <p class="project-tagline">Modern Data Stack Implementation</p>
-                    <p class="project-description">
-                        Production-grade data pipeline processing 100K+ transactions with complete ETL workflow: 
-                        pandas data cleaning, PostgreSQL star schema warehouse, and dbt transformation layer with 
-                        automated testing. Calculates customer LTV, product performance, and revenue growth metrics.
-                    </p>
-                    <div class="project-metrics">
-                        <span class="badge">Python</span>
-                        <span class="badge">pandas</span>
-                        <span class="badge">PostgreSQL</span>
-                        <span class="badge">dbt</span>
-                        <span class="badge">SQL</span>
-                        <span class="badge">ETL</span>
-                    </div>
-                    <div class="project-impact">
-                        <strong>Scale:</strong> 241K+ warehouse rows | 6 dbt models | 21 automated tests | Customer segmentation analytics
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/anaghavs09/ecommerce-sales-pipeline" class="btn btn-small" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
+                    <div class="education-undergrad">
+                        <h3>Bachelor of Engineering in Information Science and Engineering</h3>
+                        <div class="edu-school">NMAM Institute of Technology</div>
+                        <div class="edu-details">
+                            <span class="edu-location">Karnataka, India</span>
+                            <span class="edu-separator">•</span>
+                            <span class="edu-year">June 2023</span>
+                            <span class="edu-separator">•</span>
+                            <span class="edu-gpa">GPA: 8.66/10.0</span>
+                        </div>
+                        
+                        <div class="edu-courses" style="margin-top: 2rem;">
+                            <h4>Relevant Coursework</h4>
+                            <div class="courses-grid">
+                                <div class="course-item">
+                                    <div class="course-name">Machine Learning</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Statistics</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Database System Models</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Data Science</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Deep Learning</div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="course-name">Python Programming</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="view-more">
-                <a href="https://github.com/anaghavs09?tab=repositories" class="btn btn-primary" target="_blank">
-                    <i class="fab fa-github"></i> Explore All Projects
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag expert">Python</span>
-                        <span class="skill-tag expert">SQL</span>
-                        <span class="skill-tag">R</span>
-                        <span class="skill-tag">PySpark</span>
-                    </div>
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="section-inner">
+                <h2 class="section-heading">Selected Projects</h2>
+                <p class="section-subtitle">AI/ML and data engineering projects demonstrating technical capabilities</p>
+                
+                <div class="projects-grid">
+                    <!-- Project 1: Dynamic Safety Stock Optimizer -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Dynamic Safety Stock Optimizer</h3>
+                            <div class="project-type">Supply Chain Analytics</div>
+                        </div>
+                        <p class="project-description">
+                            Built a Python-based safety stock optimizer comparing statistical, heuristic, and GenAI-driven 
+                            methods to improve inventory planning under demand and lead time uncertainty. Optimized AI-driven 
+                            safety stock calculations to scale across multiple SKUs while maintaining stable performance.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>GenAI</span>
+                            <span>Statistical Analysis</span>
+                            <span>Optimization</span>
+                            <span>Inventory Planning</span>
+                        </div>
+                        <a href="https://github.com/anaghavs09/Dynamic-Safety-Stock-Optimizer" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </article>
+
+                    <!-- Project 2: AI-Powered Investment Portfolio Analyzer -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">AI-Powered Investment Portfolio Analyzer</h3>
+                            <div class="project-type">AI/ML</div>
+                        </div>
+                        <p class="project-description">
+                            Built a multi-factor investment analysis system using Python and a multi-LLM architecture to 
+                            evaluate stocks based on technical, fundamental, sentiment, and economic signals. Designed a 
+                            normalized scoring framework to support portfolio rebalancing under changing market conditions.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Multi-LLM</span>
+                            <span>Financial Analysis</span>
+                            <span>Real-time Data</span>
+                            <span>Investment Strategy</span>
+                        </div>
+                        <a href="https://github.com/anaghavs09/RebalanceAI-Langchain-hackathon" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </article>
+
+                    <!-- Project 3: MiniQuest -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">MiniQuest</h3>
+                            <div class="project-type">AI Application</div>
+                        </div>
+                        <p class="project-description">
+                            AI-powered Boston adventure planning system using multi-agent architecture with LangGraph. 
+                            Features intelligent model routing between OpenAI, Gemini, and Claude with 60% cost reduction, 
+                            RAG implementation using ChromaDB, and real-time API integrations for weather, places, and events.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>LangGraph</span>
+                            <span>OpenAI</span>
+                            <span>Gemini</span>
+                            <span>Claude</span>
+                            <span>RAG</span>
+                            <span>ChromaDB</span>
+                        </div>
+                        <a href="https://github.com/anaghavs09/MiniQuest" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </article>
+
+                    <!-- Project 4: SmartBrief -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">SmartBrief</h3>
+                            <div class="project-type">AI Automation</div>
+                        </div>
+                        <p class="project-description">
+                            Automated daily digest system using Google Sheets, Gemini AI, and GitHub Actions. 
+                            Implements location-based caching and AES-256 encryption for secure data handling, 
+                            delivering personalized content summaries via email automation.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Gemini AI</span>
+                            <span>Google Sheets API</span>
+                            <span>GitHub Actions</span>
+                            <span>Encryption</span>
+                        </div>
+                        <a href="https://github.com/anaghavs09/SmartBrief" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </article>
+
+                    <!-- Project 5: E-Commerce Pipeline -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">E-Commerce Data Pipeline</h3>
+                            <div class="project-type">Data Engineering</div>
+                        </div>
+                        <p class="project-description">
+                            Production-grade ETL pipeline built with dbt for e-commerce analytics. Implements 
+                            dimensional modeling, automated testing, and data quality checks for transaction processing.
+                        </p>
+                        <div class="project-tech">
+                            <span>dbt</span>
+                            <span>PostgreSQL</span>
+                            <span>Python</span>
+                            <span>SQL</span>
+                        </div>
+                        <a href="https://github.com/anaghavs09/ecommerce-sales-pipeline" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </article>
+
+                    <!-- Project 6: Customer Segmentation -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Customer Segmentation</h3>
+                            <div class="project-type">Machine Learning</div>
+                        </div>
+                        <p class="project-description">
+                            RFM analysis with K-means clustering for customer segmentation. Identifies 
+                            high-value customer groups to inform marketing strategies.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>Visualization</span>
+                        </div>
+                        <a href="https://github.com/anaghavs09/Customer-Segmentation-using-RFM-Analysis" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </article>
                 </div>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Data Engineering</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag expert">dbt</span>
-                        <span class="skill-tag expert">ETL/ELT Pipelines</span>
-                        <span class="skill-tag expert">Data Modeling</span>
-                        <span class="skill-tag">Airflow</span>
-                        <span class="skill-tag">Data Quality</span>
-                        <span class="skill-tag">PySpark</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> Cloud & Databases</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag expert">AWS (Athena, Glue, S3, Redshift)</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">MongoDB</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-chart-bar"></i> BI & Visualization</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag expert">Tableau</span>
-                        <span class="skill-tag expert">Power BI</span>
-                        <span class="skill-tag">Excel</span>
-                        <span class="skill-tag">Matplotlib</span>
-                        <span class="skill-tag">Seaborn</span>
-                        <span class="skill-tag">Plotly</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-microscope"></i> Data Analysis Libraries</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag expert">Pandas</span>
-                        <span class="skill-tag expert">NumPy</span>
-                        <span class="skill-tag">SciPy</span>
-                        <span class="skill-tag">Scikit-learn</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-language"></i> NLP & Text Analytics</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">LangChain</span>
-                        <span class="skill-tag">spaCy</span>
-                        <span class="skill-tag">NLTK</span>
-                        <span class="skill-tag">Sentiment Analysis</span>
-                        <span class="skill-tag">Text Processing</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-chart-line"></i> Analytics Techniques</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Time Series Analysis</span>
-                        <span class="skill-tag">Feature Engineering</span>
-                        <span class="skill-tag">Statistical Analysis</span>
-                        <span class="skill-tag">Predictive Analytics</span>
-                        <span class="skill-tag">Clustering (K-Means)</span>
-                        <span class="skill-tag">A/B Testing</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-cogs"></i> Tools & Workflow</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git/GitHub</span>
-                        <span class="skill-tag">Airflow</span>
-                        <span class="skill-tag">Jupyter</span>
-                        <span class="skill-tag">VS Code</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-image"></i> Computer Vision</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">OpenCV</span>
-                        <span class="skill-tag">Image Processing</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-briefcase"></i> Domain Knowledge</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Healthcare Analytics</span>
-                        <span class="skill-tag">Financial Analytics</span>
-                        <span class="skill-tag">E-commerce</span>
-                        <span class="skill-tag">Customer Analytics</span>
-                        <span class="skill-tag">Operations Analytics</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-users"></i> Core Competencies</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Data Storytelling</span>
-                        <span class="skill-tag">Requirements Gathering</span>
-                        <span class="skill-tag">Agile/Scrum</span>
-                        <span class="skill-tag">Cross-functional Collaboration</span>
-                        <span class="skill-tag">Technical Documentation</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's Build Something Together</h2>
-            <p class="contact-intro">
-                I'm actively seeking <strong>full-time opportunities</strong> starting <strong>December 2025</strong>.<br>
-                Let's connect if you're looking for someone who turns data into decisions!
-            </p>
-            
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <i class="fas fa-envelope"></i>
-                    <h3>Email</h3>
-                    <a href="mailto:sanjeev.an@northeastern.edu">sanjeev.an@northeastern.edu</a>
-                </div>
-
-                <div class="contact-card">
-                    <i class="fab fa-linkedin"></i>
-                    <h3>LinkedIn</h3>
-                    <a href="https://www.linkedin.com/in/anagha-v-s" target="_blank">linkedin.com/in/anagha-v-s</a>
-                </div>
-
-                <div class="contact-card">
-                    <i class="fab fa-github"></i>
-                    <h3>GitHub</h3>
-                    <a href="https://github.com/anaghavs09" target="_blank">github.com/anaghavs09</a>
-                </div>
-
-                <div class="contact-card">
-                    <i class="fas fa-file-alt"></i>
-                    <h3>Resume</h3>
-                    <a href="Anagha_Sanjeev.pdf" target="_blank">Download Resume</a>
+                <div class="projects-footer">
+                    <a href="https://github.com/anaghavs09" target="_blank" class="more-projects-link">
+                        View all projects on GitHub <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
+        </section>
 
-            <div class="availability">
-                <h3>What I'm Looking For</h3>
-                <div class="role-list">
-                    <span class="role-badge">Data Engineer</span>
-                    <span class="role-badge">Analytics Engineer</span>
-                    <span class="role-badge">Business Intelligence Engineer</span>
-                    <span class="role-badge">Data Analyst</span>
-                    <span class="role-badge">Data Scientist</span>
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="section-inner">
+                <h2 class="section-heading">Skills</h2>
+                
+                <div class="skills-layout">
+                    <div class="skills-column">
+                        <h3 class="skill-category-title">Technical</h3>
+                        
+                        <div class="skill-group">
+                            <h4>Programming Languages</h4>
+                            <div class="skill-tags">
+                                <span>Python</span>
+                                <span>SQL</span>
+                                <span>R</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h4>Python Libraries</h4>
+                            <div class="skill-tags">
+                                <span>Pandas</span>
+                                <span>NumPy</span>
+                                <span>Scikit-learn</span>
+                                <span>Matplotlib</span>
+                                <span>Seaborn</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h4>Data Modeling & ETL</h4>
+                            <div class="skill-tags">
+                                <span>dbt</span>
+                                <span>Data Cleaning</span>
+                                <span>Data Transformation</span>
+                                <span>SQL Queries</span>
+                                <span>Data Validation</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h4>Data Visualization & BI</h4>
+                            <div class="skill-tags">
+                                <span>Tableau</span>
+                                <span>Power BI</span>
+                                <span>Matplotlib</span>
+                                <span>Seaborn</span>
+                                <span>Dashboarding</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h4>Analytics & Modeling</h4>
+                            <div class="skill-tags">
+                                <span>Time-Series Forecasting</span>
+                                <span>Predictive Modeling</span>
+                                <span>Statistical Analysis</span>
+                                <span>Optimization Techniques</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h4>Supply Chain & Operations Analytics</h4>
+                            <div class="skill-tags">
+                                <span>Inventory Optimization</span>
+                                <span>Safety Stock Calculation</span>
+                                <span>Demand Forecasting</span>
+                                <span>OTIF Analysis</span>
+                                <span>Supplier Performance Metrics</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h4>Cloud & Tools</h4>
+                            <div class="skill-tags">
+                                <span>AWS Athena</span>
+                                <span>Git/GitHub</span>
+                                <span>Jupyter Notebook</span>
+                                <span>Excel</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h4>Certifications</h4>
+                            <div class="skill-tags">
+                                <span>JPMorgan Chase Excel Skills</span>
+                                <span>Managing Big Data with MySQL</span>
+                                <span>AWS Cloud Practitioner Essentials</span>
+                                <span>Data Engineering on AWS</span>
+                                <span>Generative AI - AWS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-column">
+                        <h3 class="skill-category-title">Soft Skills</h3>
+                        
+                        <div class="soft-skills-list">
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="soft-skill-content">
+                                    <h4>Problem Solving & Analytical Thinking</h4>
+                                    <p>Breaking down complex data problems and designing data-driven solutions</p>
+                                </div>
+                            </div>
+
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="soft-skill-content">
+                                    <h4>Data Storytelling</h4>
+                                    <p>Translating complex analytics into clear narratives for stakeholders</p>
+                                </div>
+                            </div>
+
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="soft-skill-content">
+                                    <h4>Cross-Functional Collaboration</h4>
+                                    <p>Working with Product, Engineering, and Design teams to deliver insights</p>
+                                </div>
+                            </div>
+
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <div class="soft-skill-content">
+                                    <h4>Stakeholder Management</h4>
+                                    <p>Managing expectations and delivering actionable insights to business leaders</p>
+                                </div>
+                            </div>
+
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <div class="soft-skill-content">
+                                    <h4>Time Management & Prioritization</h4>
+                                    <p>Delivering projects on time while managing multiple priorities effectively</p>
+                                </div>
+                            </div>
+
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                                <div class="soft-skill-content">
+                                    <h4>Adaptability & Continuous Learning</h4>
+                                    <p>Staying current with evolving data technologies and best practices</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p><strong>📅 Available:</strong> December 2025</p>
-                <p><strong>📍 Location:</strong> Boston, MA | Open to relocation across the US</p>
-                <p><strong>💼 Work Style:</strong> Remote, Hybrid, or On-site</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Anagha Veena Sanjeev. All rights reserved.</p>
-            <p class="tagline">"Good data tells you what happened. Great analytics tells you what to do next."</p>
-        </div>
-    </footer>
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-inner">
+                <h2 class="section-heading">Let's Connect</h2>
+                
+                <div class="contact-content">
+                    <p class="contact-intro">
+                        I'm actively seeking opportunities in data engineering, data science, and AI engineering. 
+                        Based in Boston, MA and open to relocation.
+                    </p>
+
+                    <div class="contact-methods">
+                        <a href="mailto:anaghavs09@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value">anaghavs09@gmail.com</div>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/anagha-v-s" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-label">LinkedIn</div>
+                                <div class="contact-value">anagha-v-s</div>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/anaghavs09" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-label">GitHub</div>
+                                <div class="contact-value">anaghavs09</div>
+                            </div>
+                        </a>
+
+                        <a href="Anagha_Sanjeev.pdf" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-label">Resume</div>
+                                <div class="contact-value">Download PDF</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <footer class="footer">
+                    <p>© <span id="year"></span> Anagha Veena Sanjeev</p>
+                </footer>
+            </div>
+        </section>
+
+    </main>
 
     <script src="script.js"></script>
 </body>
