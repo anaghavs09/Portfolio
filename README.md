@@ -71,34 +71,20 @@ My portfolio showcases projects in:
 
 ## 📫 Contact
 
-- **Email:** sanjeev.an@northeastern.edu
 - **LinkedIn:** [linkedin.com/in/anagha-v-s](https://www.linkedin.com/in/anagha-v-s)
-- **GitHub:** [github.com/anaghavs09](https://github.com/anaghavs09)
 
 ---
-
-## 🎓 Currently Seeking
-
-**Full-time roles starting December 2025:**
-- Data Engineer
-- Analytics Engineer  
-- Business Intelligence Engineer
-- Data Analyst
-
-**Location:** Boston, MA | Open to relocation
 
 ---
 
 ## 📝 License
 
-© 2025 Anagha Veena Sanjeev. All rights reserved.
+© 2026 Anagha Veena Sanjeev. All rights reserved.
 
 ---
 
 <div align="center">
 
 ### ⭐ If you found my work interesting, feel free to connect!
-
-**[View Portfolio](https://anaghavs09.github.io/portfolio/)** • **[Connect on LinkedIn](https://www.linkedin.com/in/anagha-v-s)** • **[Email Me](mailto:sanjeev.an@northeastern.edu)**
 
 </div>
